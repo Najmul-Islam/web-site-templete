@@ -1,0 +1,35 @@
+body {
+  font-family: "Times New Roman", Georgia, serif;
+}
+h1 {
+  letter-spacing: 8px;
+}
+h5 {
+  letter-spacing: 6px;
+}
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.p--small {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.banner {
+  background: url(../img/hamburger.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.banner__heading {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+
+.menu__divider {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
