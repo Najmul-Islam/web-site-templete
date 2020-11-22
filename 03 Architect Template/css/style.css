@@ -1,0 +1,44 @@
+/* basic */
+* {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  font-weight: 400;
+}
+.divider {
+  border-top: 1px solid #e6e6e6;
+  margin: 10px 0 50px 0;
+}
+/* banner section */
+.banner__bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.banner__text {
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 5px;
+  position: absolute;
+}
+.banner__text span {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.733);
+  padding: 5px 15px;
+}
+
+/* project section */
+
+.project__col {
+  position: relative;
+  display: flex;
+}
+.project__name {
+  background-color: #000000;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+}
